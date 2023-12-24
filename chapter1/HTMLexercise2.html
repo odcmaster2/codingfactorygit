@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Φόρμα Πληρωμής</h1>
+    <p>
+    Τα υποχρεωτικά πεδία ακολουθούνται απο <abbr title="Required Field"> * </abbr>.
+    </p>
+    <h2>Προσωπικα Στοιχεία</h2>
+    <table>
+        <tr><td></td><td>
+            <fieldset style="width: 150px;">
+            <div><input type="radio" name="Mr" id="Mr" value="Mr" checked><label for="Mr">Mr</label></div>
+            <div><input type="radio" name="Mrs." id="Mrs." value="Mrs." ><label for="Mrs.">Mrs.</label></div>
+            <div><input type="radio" name="Dr." id="Dr." value="Dr." ><label for="gender">Dr.</label></div>
+        </fieldset>
+        </div></td></tr>
+        <tr><td>Name: <abbr title="Required Field"> * </abbr></td><td><input type="text" name="firstname" id="firstname"></td></tr>
+        <tr><td>Email: <abbr title="Required Field"> * </abbr></td><td><input type="email" name="loginemail" id="loginemail"></td></tr>
+        <tr><td>Password: <abbr title="Required Field"> * </abbr></td><td><input type="password" name="passw" id="passw"></td></tr>
+        
+    </table>
+    <h2>Πληροφορίες Πληρωμής</h2>
+    <table>
+        <tr><td>Card Type:</td><td><td><label for="level"></label>
+            <select name="level" id="level">
+                <option value="1">Visa</option>
+                <option value="2">Mastercard</option>
+            </select></td></tr>
+        </table>
+    <table>
+        <tr><td>Card Number:<abbr title="Required Field"> * </abbr></td><td><input type="number" name="cardno" id="cardno" ></td></tr>
+        <tr><td>Expiration Date:<abbr title="Required Field"> * </abbr></td><td><input type="date" name="expdate" id="expdate" placeholder="MM/YY"></td></tr>
+        <tr><td colspan="2" ><input type="submit" value="Προχωρήστε στην πληρωμή"></td></tr>
+    </table>
+
+
+</body>
+</html>
